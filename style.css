@@ -1,0 +1,13 @@
+html[data-theme="lightmode"] {
+    --primary: #bde7dd;
+    --text: #1a1919;
+}
+html[data-theme="darkmode"] {
+    --primary: #1a1919;
+    --text: #bde7dd;
+}
+body {
+    background: var(--primary);
+    color: var(--text);
+    font-size: 32px;
+}
